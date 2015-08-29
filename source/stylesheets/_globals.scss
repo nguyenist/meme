@@ -25,6 +25,10 @@ h1{
   font-size: 50px;
 }
 
+form h2 {
+  font-family: 'Average Sans', sans-serif;
+}
+
 body.noselect {
   @include user-select(none);
 }
