@@ -14,7 +14,7 @@ MEME.MemeModel = Backbone.Model.extend({
     fontSize: 24,
     fontSizeOpts: [14, 24, 36],
     headlineText: 'Write your own headline',
-    height: 378,
+    height: 600,
     imageScale: 1,
     imageSrc: '',
     overlayAlpha: 0.5,
@@ -29,7 +29,7 @@ MEME.MemeModel = Backbone.Model.extend({
     watermarkMaxWidthRatio: 0.25,
     watermarkSrc: '',
     watermarkOpts: [],
-    width: 755
+    width: 600
   },
 
   // Initialize with custom image members used for background and watermark:

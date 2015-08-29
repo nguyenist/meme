@@ -21,7 +21,7 @@ var MEME_SETTINGS = {
   ],
 
   headlineText: 'Write your own headline', // Default headline text.
-  height: 378, // Canvas rendering height.
+  height: 600, // Canvas rendering height.
   imageScale: 1, // Background image scale.
   imageSrc: '', // Default background image path. MUST reside on host domain, or use base64 data.
   overlayAlpha: 0.5, // Opacity of image overlay.
@@ -54,9 +54,9 @@ var MEME_SETTINGS = {
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
   // Otherwise, just leave "data" attributes blank and allow images to load from your server.
   watermarkOpts: [
-    {text: 'Vox', value: '<%= image_path("vox.png") %>', data: '<%= asset_data_uri("vox.png") %>'},
-    {text: 'The Verge', value: '<%= image_path("theverge.png") %>', data: ''}
+    {text: 'Bossed Up (Light)', value: '<%= image_path("bossedup_light.png") %>', data: ''},
+    {text: 'Bossed Up (Dark)', value: '<%= image_path("bossedup_dark.png") %>', data: ''}
   ],
 
-  width: 755 // Canvas rendering width.
+  width: 600 // Canvas rendering width.
 };
