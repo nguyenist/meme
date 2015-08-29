@@ -10,10 +10,13 @@ MEME.MemeModel = Backbone.Model.extend({
     downloadName: 'share',
     fontColor: 'white',
 <<<<<<< HEAD
+<<<<<<< HEAD
     fontFamily: 'Average Sans',
     fontFamilyOpts: ['Average Sans'],
     fontSize: 30,
 =======
+=======
+>>>>>>> parent of 5ab7a75... average sans
     fontFamily: 'Helvetica Neue',
     fontFamilyOpts: ['Helvetica', 'Helvetica Neue'],
     fontSize: 24,
