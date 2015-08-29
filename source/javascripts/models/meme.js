@@ -13,7 +13,7 @@ MEME.MemeModel = Backbone.Model.extend({
     fontFamilyOpts: ['Helvetica', 'Helvetica Neue', 'Comic Sans MS'],
     fontSize: 24,
     fontSizeOpts: [14, 24, 36],
-    headlineText: 'Write your own headline',
+    headlineText: 'Write your own Fierce Fall goal here!',
     height: 600,
     imageScale: 1,
     imageSrc: '',
