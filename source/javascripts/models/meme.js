@@ -5,30 +5,21 @@
 MEME.MemeModel = Backbone.Model.extend({
   defaults: {
     backgroundPosition: { x: null, y: null },
-    creditText: '#FierceFall',
-    creditSize: 16,
+    creditText: 'Source:',
+    creditSize: 12,
     downloadName: 'share',
     fontColor: 'white',
-<<<<<<< HEAD
-<<<<<<< HEAD
-    fontFamily: 'Average Sans',
-    fontFamilyOpts: ['Average Sans'],
-    fontSize: 30,
-=======
-=======
->>>>>>> parent of 5ab7a75... average sans
     fontFamily: 'Helvetica Neue',
-    fontFamilyOpts: ['Helvetica', 'Helvetica Neue'],
+    fontFamilyOpts: ['Helvetica', 'Helvetica Neue', 'Comic Sans MS'],
     fontSize: 24,
->>>>>>> parent of 5ab7a75... average sans
     fontSizeOpts: [14, 24, 36],
-    headlineText: 'My Fierce Fall goal is...',
+    headlineText: 'Write your own headline',
     height: 600,
     imageScale: 1,
     imageSrc: '',
     overlayAlpha: 0.5,
     overlayColor: '#000',
-    overlayColorOpts: ['#000', '#ddd'],
+    overlayColorOpts: ['#000', '#'],
     paddingRatio: 0.05,
     textAlign: 'left',
     textAlignOpts: ['left', 'center', 'right'],
