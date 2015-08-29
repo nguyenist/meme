@@ -9,9 +9,15 @@ MEME.MemeModel = Backbone.Model.extend({
     creditSize: 16,
     downloadName: 'share',
     fontColor: 'white',
+<<<<<<< HEAD
     fontFamily: 'Average Sans',
     fontFamilyOpts: ['Average Sans'],
     fontSize: 30,
+=======
+    fontFamily: 'Helvetica Neue',
+    fontFamilyOpts: ['Helvetica', 'Helvetica Neue'],
+    fontSize: 24,
+>>>>>>> parent of 5ab7a75... average sans
     fontSizeOpts: [14, 24, 36],
     headlineText: 'My Fierce Fall goal is...',
     height: 600,
